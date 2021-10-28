@@ -5,7 +5,7 @@ import pprint
 from discord.ext import commands
 from pprint import pformat
 
-APIKEY = ' put your API Key here http://192.168.188.99/admin/scripts/pi-hole/php/api_token.php'
+APIKEY = ' put your API Key here'
 IpAddressofyourPI = "Put your Pis IP here"
 
 client = commands.Bot(command_prefix = '-')

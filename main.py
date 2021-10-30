@@ -38,8 +38,8 @@ async def on_message(message):
     if message.content == 'pi/qs': #shows the top Query Sources
         QS = requests.get('http://' + IpAddressofyourPI + '/admin/api.php?getQuerySources&auth=' + APIKEY)
         await message.channel.send (pformat(QS.json()))
-    if message.content == 'pi/des': #shows the top Query Sources This does not work properly and I have no Idea why
-        Des = requests.get('http://' + IpAddressofyourPI + '/admin/api.php?getForwardDestinations&auth' + APIKEY)
+    if message.content == 'pi/des': #shows the top Query Sources
+        Des = requests.get('http://' + IpAddressofyourPI + '/admin/api.php?getForwardDestinations&auth=' + APIKEY)
         await message.channel.send (pformat(Des.json()))
 
         

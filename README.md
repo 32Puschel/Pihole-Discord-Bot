@@ -7,27 +7,27 @@ Here's how you get the API Key: http://<Your Pi's IP>/admin/scripts/pi-hole/php/
 
 Commands:
 
-#pi/on
+## pi/on
 Turns the Pihole on!
 
-#pi/off
+## pi/off
 Turns the Pihole off!
 
-#pi/ver
+## pi/ver
 shows the API Version you are using (not the Pihole Version!)
 
-#pi/sum
+## pi/sum
 shows a summary of random statistics
 
-#pi/top
+## pi/top
 shows the top 10 domains
 
-#pi/qt
+## pi/qt
 shows the query types
 
-#pi/qs
+## pi/qs
 shows the top Query Sources
 
-#pi/des
+## pi/des
 shows the forward destinations
 

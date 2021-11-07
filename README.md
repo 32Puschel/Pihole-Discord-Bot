@@ -1,7 +1,7 @@
 # A Pihole Discord Bot written in Python!
 
 An unoffical selfhosted python discord bot for controlling Pihole!
-You just need to update your PI's IP and API Key in main.py
+You just need to update your PI's IP, Bot Token and API Key in main.py
 
 Here's how you get the API Key: http://<Your Pi's IP>/admin/scripts/pi-hole/php/api_token.php
 

@@ -38,7 +38,7 @@ async def on_message(message):
     if message.content == 'pi/qs': #shows the top Query Sources
         QS = requests.get('http://' + IpAddressofyourPI + '/admin/api.php?getQuerySources&auth=' + APIKEY)
         await message.channel.send (pformat(QS.json()))
-    if message.content == 'pi/des': #shows the top Query Sources
+    if message.content == 'pi/des': #shows the top forward destinations
         Des = requests.get('http://' + IpAddressofyourPI + '/admin/api.php?getForwardDestinations&auth=' + APIKEY)
         await message.channel.send (pformat(Des.json()))
 

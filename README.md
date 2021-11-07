@@ -1,4 +1,4 @@
-# Pihole-Discord-Bot
+# A Pihole Discord Bot written in Python!
 
 An unoffical selfhosted python discord bot for controlling Pihole!
 You just need to update your PI's IP and API Key in main.py

@@ -7,6 +7,7 @@ from pprint import pformat
 
 APIKEY = ' put your API Key here'
 IpAddressofyourPI = "Put your Pis IP here"
+Bot_Token = "Your Discord Bot Token"
 
 client = commands.Bot(command_prefix = '-')
 #Prefixes idk why i need this but the code breaks when I remove it. 
@@ -43,4 +44,5 @@ async def on_message(message):
         await message.channel.send (pformat(Des.json()))
 
         
-client.run('Your-Bot-Token')
+client.run("" + Bot_Token + "")
+ 
